@@ -3,6 +3,8 @@
 A naive wrapper for TwelveData's financial data API endpoints. 
 An API key subscription is required, and can be acquired from [TwelveData's website](https://twelvedata.com/pricing).
 
+Special thanks to Romel Torres [Alpha Vantage API](https://github.com/RomelTorres/alpha_vantage) for giving me a good framework to build off of. 
+
 # Installation
 
 Clone the repository to the local machine:

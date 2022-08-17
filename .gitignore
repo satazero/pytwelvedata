@@ -1,3 +1,4 @@
 venv/
 __pycache_/
+.pytest_cache/
 api_key.py
