@@ -7,33 +7,30 @@ try:
     with open("README.md", "r") as fh:
         long_description = fh.read()
 except IOError:
-    long_description = 'Python module to get stock data from the Alpha Vantage Api'
+    long_description = 'Python module for retrieving financial data from TwelveData API endpoints'
 
 setup(
-    name='alpha_vantage',
-    version='2.3.1',
-    author='Romel J. Torres',
-    author_email='romel.torres@gmail.com',
+    name='pytwelvedata',
+    version='0.1.0',
+    author='Andrew Zero',
+    author_email='galoisraid@gmail.com',
     license='MIT',
-    description='Python module to get stock data from the Alpha Vantage Api',
+    description='Python module for retrieving financial data from TwelveData API endpoints',
     long_description=long_description,
     long_description_content_type="text/markdown",
     classifiers=[
-        'Development Status :: 5 - Production/Stable',
+        'Development Status :: 3 - Alpha Copy',
         'Intended Audience :: Developers',
         'Topic :: Office/Business :: Financial :: Investment',
         'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8'
     ],
-    url='https://github.com/RomelTorres/alpha_vantage',
+    url='https://github.com/satazero/pytwelvedata',
     install_requires=[
         'aiohttp',
-        'requests'
+        'requests',
+        'pandas'
     ],
     test_requires=[
         'aioresponses',
@@ -41,13 +38,12 @@ setup(
         'requests_mock'
     ],
     extras_requires={
-        'pandas': ['pandas'],
     },
     keywords=['stocks', 'market', 'finance', 'alpha_vantage', 'quotes',
               'shares'],
     packages=find_packages(
         exclude=['helpers', 'test_alpha_vantage', 'images']),
     package_data={
-        'alpha_vantage': [],
+        'pytwelvedata': [],
     }
 )
