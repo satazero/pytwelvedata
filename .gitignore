@@ -3,3 +3,4 @@ __pycache_/
 .pytest_cache/
 api_key.py
 tester.py
+pytwelvedata.egg-info/
