@@ -41,4 +41,8 @@ import pytwelvedata
 
 # Functionality
 
-Virtually none as of writing this.
+Simplistic access to TwelveData API without having to handcraft requests yourself. Mostly used as a tool in building my personal proof of concept models. 
+Written before finding the official TwelveData Python package, but still provides a simplistic interface for accessing similar functionality. Additionally,
+its functionality is limited to what it is accessible only with the free/basic subscription plan.
+
+Currently supports the gamut of Time Series data endpoints, as well as the Technical Indicator endpoints.
