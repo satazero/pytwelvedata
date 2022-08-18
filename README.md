@@ -10,7 +10,7 @@ Special thanks to Romel Torres [Alpha Vantage API](https://github.com/RomelTorre
 Clone the repository to the local machine:
 
 ```
-git clone !!REPOSITORY_URL!!
+git clone https://github.com/satazero/pytwelvedata
 ```
 
 Create a virtual environment
@@ -28,6 +28,8 @@ pip install -r requirements.txt
 Create a file `api_key.py` in the base directory of this project including your API key.
 
 ```
+# ./api_key.py
+
 API_KEY = "example_api_key_from_twelve_data"
 ```
 
